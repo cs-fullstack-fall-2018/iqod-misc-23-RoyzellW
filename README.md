@@ -16,4 +16,14 @@ print(100)
 100
 ```
 
+function SemiColonAdder(num) {
 
+
+  for (var i = 0; i < num.length; i++) {
+    if (num[i] % 3 === 0) {
+      num.splice(num[i], 0, ',');
+    } else {
+      console.log(num[i]);
+    }
+  }
+}
